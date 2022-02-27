@@ -1,0 +1,22 @@
+{
+  "name": "replay.io-clone",
+  "version": "1.0.0",
+  "description": "This is a clone of https://www.replay.io/ built to demonstrate understanding of css and scss coding techniques.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasah-Kuma/replay.io-clone.git"
+  },
+  "author": "Nasah Kuma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasah-Kuma/replay.io-clone/issues"
+  },
+  "homepage": "https://github.com/Nasah-Kuma/replay.io-clone#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
