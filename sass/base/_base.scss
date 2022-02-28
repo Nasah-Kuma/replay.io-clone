@@ -1,0 +1,13 @@
+*,
+**::after,
+**::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #081120;
+    padding: 3rem 10rem;
+}

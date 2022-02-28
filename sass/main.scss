@@ -1,5 +1,10 @@
-$color-primary: red;
+@import "base/base";
 
-p{
-    background-color: $color-primary;
-}
+
+@import "abstracts/variables";
+
+
+@import "components/button";
+
+
+@import "layout/header.scss";
