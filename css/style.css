@@ -54,12 +54,13 @@ body {
   .navigation__item:not(:last-child) {
     font-size: 1.2rem; }
   .navigation__item:last-child {
-    background-color: #999;
+    background-color: #ffffff59;
     font-size: .9rem;
     padding: .88rem 1.88rem;
-    border-radius: 12px; }
+    border-radius: 12px;
+    opacity: .8; }
     .navigation__item:last-child:hover {
-      background-color: #ffffff59; }
+      background-color: #999; }
       .navigation__item:last-child:hover a:hover {
         color: #fff; }
 
@@ -70,3 +71,28 @@ body {
 
 .navigation__link:hover {
   color: #01acfd; }
+
+.btn-box {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  background-color: rgba(240, 45, 94, 0.5);
+  backdrop-filter: blur(7px);
+  padding: 1rem 2rem;
+  border-radius: 5px; }
+  .btn-box:hover {
+    background-color: #f02d5e; }
+
+.button-so-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 9px; }
+
+.btn-download:link, .btn-download:visited {
+  text-decoration: none; }
+
+.btn-download span {
+  line-height: 120%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff; }

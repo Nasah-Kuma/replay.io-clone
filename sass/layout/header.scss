@@ -60,14 +60,14 @@
         }
 
         &:last-child {
-            background-color: $color-light-gray;
+            background-color: #ffffff59;
             font-size: .9rem;
             padding: .88rem 1.88rem;
             border-radius: 12px;
+            opacity: .8;
 
             &:hover {
-                background-color: #ffffff59;
-
+                background-color: $color-light-gray;
                 & a:hover {
                     color: $color-white;
                 }
@@ -90,4 +90,38 @@
         
     }
 
+}
+
+.btn-box {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    background-color: rgba(240, 45, 94, .5);
+    backdrop-filter: blur(7px);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #f02d5e;
+    }
+}
+
+.button-so-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 9px;
+}
+
+.btn-download {
+    &:link,
+    &:visited {
+        text-decoration: none;
+    }
+
+    & span {
+        line-height: 120%;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $color-white;
+    }
 }
