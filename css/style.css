@@ -41,7 +41,7 @@ body {
 
 .navigation__nav {
   position: absolute;
-  top: -2%;
+  top: -3%;
   left: 50%; }
 
 .navigation__list {
@@ -80,6 +80,8 @@ body {
   backdrop-filter: blur(7px);
   padding: 1rem 2rem;
   border-radius: 5px; }
+  .btn-box:link {
+    text-decoration: none; }
   .btn-box:hover {
     background-color: #f02d5e; }
 
